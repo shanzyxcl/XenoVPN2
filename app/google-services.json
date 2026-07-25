@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221545867664",
+    "project_id": "tpv-plus-9e98f",
+    "storage_bucket": "tpv-plus-9e98f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221545867664:android:381a9d61aab83f16652b15",
+        "android_client_info": {
+          "package_name": "com.tpv.plus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCASZOJp9zD__dzkozG8HGRUwNmOiHAq6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

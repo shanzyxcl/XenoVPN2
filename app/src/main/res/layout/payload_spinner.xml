@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="50.0dip"
+     android:layout_width="fill_parent"
+     android:gravity="center"
+     android:layout_marginLeft="5.0dip"
+     android:layout_marginTop="5.0dip"
+     android:layout_marginRight="5.0dip"
+     android:orientation="vertical">
+    
+<LinearLayout
+     android:gravity="center_vertical"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="45.0dip"
+     android:layout_marginLeft="5.0dip"
+     android:layout_marginTop="5.0dip"
+     android:layout_marginRight="5.0dip"
+     android:layout_marginBottom="5.0dip">
+
+    <LinearLayout
+       android:gravity="center_vertical"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+
+    <ImageView
+         android:layout_height="35dp"
+         android:layout_width="35dp"
+         android:layout_marginLeft="1dp"
+         android:id="@+id/pIcon" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="vertical">
+
+        <TextView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:paddingEnd="7dp"
+             android:gravity="center_vertical"
+             android:textSize="12.0sp"
+             android:textColor="@color/black"
+             android:paddingStart="7dp"
+             android:id="@+id/pName"
+             android:text="Name"
+             android:textStyle="bold" />
+
+        <TextView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:paddingEnd="10dp"
+             android:gravity="center_vertical"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:paddingStart="10dp"
+             android:id="@+id/pInfo"
+             android:text="Info"
+             android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    </LinearLayout>
+
+</LinearLayout>

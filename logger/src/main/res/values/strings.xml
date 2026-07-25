@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Myprotect VPN</string>
+    <string name="unknown_state">OnProcess..</string>
+    <string name="mobile_info">Running on %3$s %1$s (%2$s), Android %5$s API %4$d</string>
+    <string name="app_mobile_info">Application Version: %1$s %2$s</string>
+
+    <string name="unhandled_exception">Unhandled exception: %1$s\n\n%2$s</string>
+    <string name="unhandled_exception_context">%3$s: %1$s\n\n%2$s</string>
+
+    <string name="state_waitconnectretry">Waiting %ss seconds between connection attempt</string>
+
+    <string name="reread_log">Reread (%d) log items from log cache file</string>
+
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server reply</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_get_config">Finalize Configuration</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnect</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_exiting">Exiting</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Connecting (TCP)</string>
+    <string name="state_nonetwork">Waiting for usable network</string>
+    <string name="state_auth_pending">Authentication pending</string>
+    <string name="state_userpause">VPN pause requested by user</string>
+    <string name="state_screenoff">VPN paused - screen off</string>
+</resources>

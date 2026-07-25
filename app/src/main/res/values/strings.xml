@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+       <string name="connection_connected">✅ Successfully Connected, Tap to Check PING</string>
+    <string name="connection_not_connected">◈⪧ Not connected ⪦◈</string>
+    <string name="connection_test_available">✅ Success: HTTP connection took %dms</string>
+    <string name="connection_test_error">📡 Fail to detect internet connection: %s</string>
+    <string name="connection_test_error_status_code">⛔️ Error code: #%d</string>
+    <string name="connection_test_fail">⚠️ Internet Unavailable</string>
+    <string name="connection_test_pending">🚀 Aguarde um momento está  realizando a conexão...</string>
+    
+   <string name="attention">Attention</string>
+
+    
+  
+    <string name="minimize">Minimize</string>
+    <string name="exit">Exit</string>
+    
+    
+    <string name="alert_exit">Are you sure you want to exit?</string>
+      <string name="voce_conectado">Você está conectado</string>
+    
+    <string name="provedor">Provedor:</string>
+   <string name="timezone">TimeZone:</string>
+   <string name="cidade">Cidade:</string>
+       <string name="consumo_dados">Consumo de dados durante essa conexão</string>
+       <string name="estado">Estado:</string>
+      <string name="realizando_conexao">Realizando a conexão...</string>
+    <string name="realizando_testes">Realizando testes...</string>
+      <string name="user">Teste</string>
+      <string name="tempo_conexao_restante">Tempo de conexão restante</string>
+    <string name="tempo_esgotado">Tempo Esgotado!</string>
+       <string name="logs">Registro</string>
+    <string name="registro_erros">Registro de Erros</string>
+    <string name="ip">Ip:</string>
+    <string name="ip_local">Ip Local:</string>
+     <string name="conexao">Conexões</string>
+    <string name="conexao_atual">Conexão Atual:</string>
+       <string name="informacoes">Informações</string>
+       <string name="servidor">Servidor</string>
+    <string name="servidor_atual">Servidor Atual:</string>
+       <string name="rede">Rede:</string>
+    <string name="dados_protegidos">Dados protegidos</string>
+    <string name="latencia">Latência:</string>
+    <string name="pais">País:</string>
+         <string name="CheckUer">CheckUer</string>
+        <string name="VIP">Informações sobre seu usuário</string>
+    <string name="dados">Dados Usuário</string>
+     <string name="velocidade_conexao">Velocidade de Conexão</string>
+    <string name="velocidade_download">Downlaod:</string>
+    <string name="velocidade_download_atual">Sua velocidade de download atual</string>
+    <string name="velocidade_upload">Velocidade :</string>
+    <string name="velocimetro">Velocímetro</string>
+    <string name="velocimetro_ativo">Velocímetro Ativo</string>
+    <string name="velocimetro_desativado">Velocímetro Desativado</string>
+    
+       <string name="app_dblack">Hone <font fgcolor="#000">DBlack</font></string>
+
+    
+    <string name="app_name">Xeno VPN</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="enter_the_port">Enter port (eg: 8080)</string>
+    <string name="proxy_is_running">Proxy is running on:</string>
+    <string name="errors">There are a few bugs</string>
+    <string name="proxy_stopped">Stopped ✖️</string>
+    <string name="autologin_suffix">/autologin</string>
+    <string name="cert_verify_fail">Server certificate verification failed</string>
+    <string name="statusline_bytecount">down:%2$s(%1$s)-up:%4$s(%3$s)</string>
+    <string name="keychain_access">Cannot access the Android Keychain Certificates. This can be caused by a firmware upgrade or by restoring a backup of the app/app settings. Please edit the VPN and reselect the certificate under basic settings to recreate the permission to access the certificate.</string>
+    <string name="jelly_keystore_alphanumeric_bug">Some versions of Android 4.1 have problems if the name of the keystore certificate contains non alphanumeric characters (like spaces, underscores or dashes). Try to reimport the certificate without special characters</string>
+    <string name="no_keystore_cert_selected">You must select a User certificate</string>
+    <string name="no_ca_cert_selected">You must select a CA certificate</string>
+    <string name="deprecated_tls_remote">Config uses option tls-remote that was deprecated in 2.3 and finally removed in 2.4</string>
+    <string name="ipv4_format_error">Error parsing the IPv4 address</string>
+    <string name="custom_route_format_error">Error parsing the custom routes</string>
+    <string name="missing_tlsauth">tls-auth file is missing</string>
+    <string name="missing_certificates">Missing user certificate or user certifcate key file</string>
+    <string name="missing_ca_certificate">Missing CA certificate</string>
+    <string name="remote_no_server_selected">You need to define and enable at least one remote server.</string>
+    <string name="no_error_found">No error found</string>
+    <string name="pkcs12_file_encryption_key">PKCS12 File Encryption Key</string>
+    <string name="private_key_password">Private Key Password</string>
+    <string name="months_left">%d months left</string>
+    <string name="days_left">%d days left</string>
+    <string name="hours_left">%d hours left</string>
+    <string name="client_halt">VPN was halted by server</string>
+    <string name="client_restart">VPN was restarted by server</string>
+    <string name="config_file_parse_error">Error parsing VPN configuration file</string>
+    <string name="core_thread_abandoned">VPN Disconnected (core thread detached)</string>
+    <string name="core_thread_error">VPN core error</string>
+    <string name="creds_error">VPN credentials error</string>
+    <string name="dynamic_challenge">VPN Authentication Challenge</string>
+    <string name="epki_error">External PKI error</string>
+    <string name="epki_invalid_alias">Lost KeyChain association with profile certificate and private key. Please retry login.</string>
+    <string name="epki_missing_cert">Cannot obtain profile certificate from KeyChain</string>
+    <string name="inactive_timeout">VPN Inactivity Disconnect</string>
+    <string name="info_msg">Info</string>
+    <string name="need_creds_error">VPN credentials required but none provided</string>
+    <string name="password">Password:</string>
+    <string name="pem_password_fail">Bad private key password</string>
+    <string name="profile_conflict">Conflicts with one that is already connected</string>
+    <string name="profile_filename_error">Profile filename must have extension .ovpn</string>
+    <string name="profile_merge_exception">Profile import failed</string>
+    <string name="profile_merge_multiple_ref_fail">Error reading multiple files referenced by profile</string>
+    <string name="profile_merge_ovpn_ext_fail">Profile filename must have extension .ovpn</string>
+    <string name="profile_merge_ovpn_file_fail">Error reading profile</string>
+    <string name="profile_merge_ref_fail">Error reading file referenced by profile</string>
+    <string name="profile_not_found">Profile not found</string>
+    <string name="profile_parse_error">Error parsing Profile</string>
+    <string name="profile_type_autologin">Autologin profile</string>
+    <string name="profile_type_epki">External certificate profile</string>
+    <string name="profile_type_standard">Standard profile</string>
+    <string name="profile_write_error">Error writing Profile to app storage</string>
+    <string name="proxy_context_expired">Proxy Login Expired</string>
+    <string name="proxy_error">Proxy error</string>
+    <string name="proxy_need_creds">Proxy credentials required</string>
+    <string name="proxy_none">None</string>
+    <string name="tap_not_supported">TAP-based tunnels are not supported</string>
+    <string name="tls_version_min">Server TLS version is too low</string>
+    <string name="tun_iface_create">Error creating tun interface</string>
+    <string name="tun_setup_failed">Tun interface setup failed</string>
+    <string name="ui_reset">UI Reset</string>
+    <string name="wait_proxy">Waiting for proxy server</string>
+    <string name="warn_msg">Warning</string>
+
+    <string name="state_resume">Resuming after pause</string>
+    <string name="state_pause">Pausing (waiting for network)</string>
+    <string name="state_connection_timeout">Connection Timeout</string>
+    <string name="state_unknown">Unknown event occurred</string>
+    <string name="state_starting">Getting Started</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server response</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_auth_success">Authenticated</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_auth_pending">Waiting for Autentication</string>
+    <string name="state_get_config">Finalize Configuration</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_stopping">Stopping</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_nonetwork">Waiting for network</string>
+    <string name="state_proxy_inject">Injecting</string>
+    <string name="channel_description_background">Ongoing statistics of the established xptunnel Pro connection</string>
+    <string name="channel_name_background">xpTUNNEL Pro Connection statistics</string>
+    <string name="mobile_info">Running on %3$s %1$s (%2$s), Android %5$s API %4$d</string>
+    <string name="app_mobile_info">Application Version: %1$s %2$s</string>
+    <string name="bits_per_second">%.0f bit/s</string>
+    <string name="kbits_per_second">%.1f kbit/s</string>
+    <string name="mbits_per_second">%.1f Mbit/s</string>
+    <string name="gbits_per_second">%.1f Gbit/s</string>
+    <string name="volume_byte">%.0f B</string>
+    <string name="volume_kbyte">%.1f kB</string>
+    <string name="volume_mbyte">%.1f MB</string>
+    <string name="volume_gbyte">%.1f GB</string>
+    <string name="profile_too_large">Profile is too large (cannot exceed %d bytes)</string>
+    <string name="channel_description_status">Status changes of the SocksHttp connection (Connecting, authenticating,…)</string>
+    <string name="channel_name_status">Connection status change</string>
+    <string name="channel_name_userreq">User interaction required</string>
+    <string name="channel_description_userreq">SocksHttp connection requires a user input, e.g. two factor authentification</string>
+
+    <string name="config_version_btn">Config Version :</string>
+    <string name="btn_1_0">1.0</string>
+    <string name="btn_connect">START</string>
+    <string name="duration_btn">Time:</string>
+    <string name="btn_00_00_00">00:00:00</string>
+    <string name="splash">launcher</string>
+    <string name="btn_fast_and_secure">Fast and Secure</string>
+    <string name="btn_v7">v7</string>
+    <string name="btn_ovpn">OVPN</string>
+    <string name="btn_udp">UDP</string>
+    <string name="btn_ssh2">SSH</string>
+    <string name="btn_dnstt">DNSTT</string>
+    <string name="btn_v2ray">V2RAY</string>
+
+</resources>

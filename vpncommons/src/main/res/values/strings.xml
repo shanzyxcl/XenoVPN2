@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OharaVPN</string>
+
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server response</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_get_config">Finalize Configuration</string>
+    <string name="state_assign_ip">Assigning IP address</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Connecting (TCP)</string>
+    <string name="state_nonetwork">Waiting for network</string>
+    <string name="state_waitconnectretry">Waiting %s seconds between connection attempts</string>
+    <string name="state_auth_pending">Waiting for authentication</string>
+    <string name="state_auth_success">Authenticated</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_unknown">Unknown event occurred</string>
+    <string name="state_starting">Getting Started</string>
+    <string name="state_stopping">Stopping</string>
+    <string name="state_resume">Resuming after pause</string>
+    <string name="state_pause">Pausing (waiting for network)</string>
+
+
+    <!-- channels -->
+    <string name="channel_name_background">Connection statistics</string>
+    <string name="channel_description_background">Ongoing statistics of the established OpenVPN connection</string>
+    <string name="channel_name_status">Connection status change</string>
+    <string name="channel_description_status">Status changes of the OpenVPN connection (Connecting, authenticating,…)</string>
+    <string name="channel_name_userreq">User interaction required</string>
+    <string name="channel_description_userreq">OpenVPN connection requires a user input, e.g. two factor
+        authentification
+    </string>
+
+    <!--from ics-openvpn-->
+    <string name="bits_per_second" translatable="false">%.0f bit/s</string>
+    <string name="kbits_per_second" translatable="false">%.1f kbit/s</string>
+    <string name="mbits_per_second" translatable="false">%.1f Mbit/s</string>
+    <string name="gbits_per_second" translatable="false">%.1f Gbit/s</string>
+    <string name="volume_byte" translatable="false">%.0f B</string>
+    <string name="volume_kbyte" translatable="false">%.1f kB</string>
+    <string name="volume_mbyte" translatable="false">%.1f MB</string>
+    <string name="volume_gbyte" translatable="false">%.1f GB</string>
+
+</resources>

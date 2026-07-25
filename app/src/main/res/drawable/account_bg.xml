@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/account_bg1" />
+    <item
+        android:bottom="3px"
+        android:drawable="@drawable/card2" />
+</layer-list>

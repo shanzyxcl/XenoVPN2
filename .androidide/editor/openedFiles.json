@@ -1,0 +1,95 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/app/build.gradle",
+      "selection": {
+        "end": {
+          "column": 27,
+          "index": 280,
+          "line": 14
+        },
+        "start": {
+          "column": 27,
+          "index": 280,
+          "line": 14
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/app/src/main/res/layout/new_home.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/logger/build.gradle",
+      "selection": {
+        "end": {
+          "column": 22,
+          "index": 251,
+          "line": 13
+        },
+        "start": {
+          "column": 22,
+          "index": 251,
+          "line": 13
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/vpncommons/build.gradle",
+      "selection": {
+        "end": {
+          "column": 22,
+          "index": 243,
+          "line": 13
+        },
+        "start": {
+          "column": 22,
+          "index": 243,
+          "line": 13
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/v2ray/build.gradle",
+      "selection": {
+        "end": {
+          "column": 22,
+          "index": 238,
+          "line": 13
+        },
+        "start": {
+          "column": 22,
+          "index": 238,
+          "line": 13
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/app/google-services.json",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/XenoVPN-main/logger/build.gradle"
+}

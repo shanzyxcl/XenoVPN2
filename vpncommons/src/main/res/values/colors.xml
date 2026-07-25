@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF8C00</color>
+    <color name="colorPrimaryDark">#FF8C00</color>
+    <color name="colorAccent">#FF8C00</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_800">#252525</color>
+    <color name="file_dialog_gray">#ffff0000</color>
+    <color name="jx_corner_shadow">#000000</color>
+    <color name="jx_shapeEnd">#cfd8dc</color>
+    <color name="jx_shapeStart">#ffffff</color>
+    <color name="accent_color">#FF8C00</color>
+    <color name="jx_card_bg">#ffffff</color>
+    <color name="jx_transparent">#00000000</color>
+    <color name="trans">#00000000</color>
+</resources>

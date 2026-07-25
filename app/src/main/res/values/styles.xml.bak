@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/sans_serif_flf_demibold</item>
+    </style>
+    
+   <style name="SpkDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/hdb_alert_bg</item>
+        <item name="android:windowMinWidthMinor">85.0%</item>
+    </style>
+      
+    <style name="SpinKitView">
+        <item name="android:maxWidth">48.0dip</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="SpinKitView.ChasingDots" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Circle" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.CubeGrid" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.DoubleBounce" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.FadingCircle" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.FoldingCube" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Large" parent="@style/SpinKitView">
+        <item name="android:maxWidth">76.0dip</item>
+        <item name="android:maxHeight">76.0dip</item>
+        <item name="android:minWidth">76.0dip</item>
+        <item name="android:minHeight">76.0dip</item>
+    </style>
+    <style name="SpinKitView.Large.ChasingDots" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Large.Circle" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.Large.CubeGrid" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.Large.DoubleBounce" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.Large.FadingCircle" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.Large.FoldingCube" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Large.MultiplePulse" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.Large.MultiplePulseRing" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Large.Pulse" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.Large.PulseRing" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.Large.RotatingCircle" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.Large.RotatingPlane" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Large.ThreeBounce" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.Large.WanderingCubes" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Large.Wave" parent="@style/SpinKitView.Large">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+    <style name="SpinKitView.MultiplePulse" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.MultiplePulseRing" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Pulse" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.PulseRing" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.RotatingCircle" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.RotatingPlane" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Small" parent="@style/SpinKitView">
+        <item name="android:maxWidth">16.0dip</item>
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:minWidth">16.0dip</item>
+        <item name="android:minHeight">16.0dip</item>
+    </style>
+    <style name="SpinKitView.Small.ChasingDots" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">ChasingDots</item>
+    </style>
+    <style name="SpinKitView.Small.Circle" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+    <style name="SpinKitView.Small.CubeGrid" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+    <style name="SpinKitView.Small.DoubleBounce" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">DoubleBounce</item>
+    </style>
+    <style name="SpinKitView.Small.FadingCircle" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">FadingCircle</item>
+    </style>
+    <style name="SpinKitView.Small.FoldingCube" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">FoldingCube</item>
+    </style>
+    <style name="SpinKitView.Small.MultiplePulse" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">MultiplePulse</item>
+    </style>
+    <style name="SpinKitView.Small.MultiplePulseRing" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">MultiplePulseRing</item>
+    </style>
+    <style name="SpinKitView.Small.Pulse" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">Pulse</item>
+    </style>
+    <style name="SpinKitView.Small.PulseRing" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">PulseRing</item>
+    </style>
+    <style name="SpinKitView.Small.RotatingCircle" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">RotatingCircle</item>
+    </style>
+    <style name="SpinKitView.Small.RotatingPlane" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">RotatingPlane</item>
+    </style>
+    <style name="SpinKitView.Small.ThreeBounce" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.Small.WanderingCubes" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Small.Wave" parent="@style/SpinKitView.Small">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+    <style name="SpinKitView.ThreeBounce" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">ThreeBounce</item>
+    </style>
+    <style name="SpinKitView.WanderingCubes" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">WanderingCubes</item>
+    </style>
+    <style name="SpinKitView.Wave" parent="@style/SpinKitView">
+        <item name="SpinKit_Style">Wave</item>
+    </style>
+
+      <style name="CardStyle1" parent="@android:style/Widget">
+        <item name="cardBackgroundColor">@color/black</item>
+        <item name="rippleColor">#273d464e</item>
+    </style>
+    
+       <style name="CardStyle" parent="@android:style/Widget">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="rippleColor">#273d464e</item>
+    </style>
+      <style name="side_menu_icon" parent="@android:style/Widget">
+        <item name="tint">@color/black</item>
+    </style>
+    <style name="status_txt" parent="@android:style/Widget">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/segoeui</item>
+    </style>
+    <style name="Imagesz" parent="@android:style/Widget">
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="Main_BG" parent="@android:style/Widget">
+        <item name="android:background">@color/white</item>
+    </style>
+
+     <style name="Backgroundsz" parent="@android:style/Widget">
+        <item name="tint">@color/light_gray</item>
+    </style>
+    
+       <style name="Middle_BTN" parent="@android:style/Widget">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="rippleColor">#2a1e2843</item>
+    </style>
+    
+    <style name="technore_dialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorAccent">@color/primary_color</item>
+    </style>
+
+    <style name="WindowTitleStyle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/colorBtnStroke</item>
+    </style>
+
+    <style name="MainTextView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="ToolbarTitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/grey_800</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+    <style name="ToolbarSubtitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/grey_800</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Tints the input fields like checkboxes and text fields -->
+        <item name="colorAccent">@color/black</item>
+        <!-- Applies to views in their normal state. -->
+        <item name="colorControlNormal">@color/white</item>
+
+        <!-- Applies to views in their activated state (i.e checked or switches) -->
+        <item name="colorControlActivated">@color/black</item>
+        <!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+        <item name="colorControlHighlight">@color/black</item>
+
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+
+</resources>

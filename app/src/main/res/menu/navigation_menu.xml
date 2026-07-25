@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="SETTINGS OPTIONS">
+        <menu>
+           
+            <item
+                android:id="@+id/item_dns"
+                android:icon="@drawable/ic_dns"
+                android:title="Edit DnsForwarder" />
+            <item
+                android:id="@+id/item_udp"
+                android:icon="@drawable/ic_dns"
+                android:title="Edit UdpForwarder" />
+            <item
+                android:id="@+id/dnsforward"
+                android:icon="@drawable/ic_dns"
+                android:title="Dns Forwarder"
+                app:actionLayout="@layout/layout_switch" />
+            <item
+                android:id="@+id/udpforward"
+                android:icon="@drawable/ic_dns"
+                android:title="Udp Forwarder"
+                app:actionLayout="@layout/layout_switch" />
+
+        </menu>
+    </item>
+
+
+</menu>
